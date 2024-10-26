@@ -7,7 +7,7 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">GoVoyage</h1>               
+                <h1 className="navbar-logo">GoVoyager</h1>               
 
                 <ul className="nav-menu">
                 {MenuItems.map((item, index)=>{
